@@ -5,19 +5,20 @@ public class clash_royale
     public static void main(String[] args) 
     {
         // Définissez le frame
-        JFrame frame = new JFrame("Hello World");
-    
-        JLabel label = new JLabel("Je suis un JLabel", JLabel.CENTER);
+        JFrame frame = new JFrame("Clash Royale");
+        
+        JLabel label = new JLabel("Clash Royale", JLabel.CENTER);
         frame.add(label);
     
         // Définissez le panel
         JPanel panel = new JPanel();
         // Définir les boutons
-        JButton btn1 = new JButton("Bouton 1");
-        JButton btn2 = new JButton("Bouton 2");      
+        JButton btn1 = new JButton("Electro Géant");
+        JButton btn2 = new JButton("Barbares d'élite");      
         // Ajouter les boutons au frame
         panel.add(btn1); 
         panel.add(btn2);
+        
          
         // Ajouter label et panel au frame
         frame.setLayout(new GridLayout(2, 1));
