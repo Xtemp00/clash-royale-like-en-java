@@ -1,0 +1,12 @@
+.head {
+    border-radius: 73px;
+    background: linear-gradient(145deg, #d7a9c0, #ffc9e4);
+    box-shadow:  19px 19px 38px #cba0b5,
+             -19px -19px 38px #ffd8f5;
+}
+body {
+    background: #2E294E;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}

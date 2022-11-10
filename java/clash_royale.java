@@ -1,3 +1,4 @@
+package java;
 import javax.swing.*;
 import java.awt.*;
 public class clash_royale
