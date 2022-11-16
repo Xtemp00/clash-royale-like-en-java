@@ -1,47 +1,59 @@
-.main {
-    position: absolute;
-    top:0px; 
-    left: 0px;
-    height: 15%;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background: #464E47;
-}
-.main ul .navigation {
-    display: flex;
-    position: relative;
-    border-radius: 50px;
-    background: #96E6B3;
-    box-shadow:  20px 20px 60px #80c498,
-             -20px -20px 60px #adffce;
-}
 body {
-    position: relative;
-    top: 10px;
-    background: #568259;
+    background: #0B2429;
     display: flex;
+    flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
-.main ul .button {
-    position: absolute;
-    height: 50%;
-    top: 10%;
-    left: 78%;
-    width: 20%;
-    text-align: justify;
-    background: #96E6B3;
-    border-radius: 89% 11% 94% 6% / 10% 87% 13% 90% ;
+
+/* stylesheet of crhub.html body */
+
+.news h1 {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 100px;
+    color:#F3AC3C;
 }
-.main ul .button a .Text {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    top: 20%;
-    left: 15%;
-    background-color: #F1FFFA;
-    border-radius: 100%;
+.news {
+    flex: 1 0 auto;
+}
+.news p {
+    padding: 5vw 10vw;
+    text-align: justify;
+    background: #18343a;
+    color:#F3AC3C;
+}
+.info {
+    flex: 1 0 auto;
+}
+.info ul li{
+    padding: 5vw 10vw;
+    text-align: justify;
+    background: #18343a;
+    color:#F3AC3C;
+}
+
+
+/*@media only screen and (max-width: 1100px){
+    .navigation ul li {
+        position: relative;
+        top: 0px;;
+        list-style: none;
+        width: 50px;
+        height: 75px;
+        z-index: 1;
+        border-radius: 100%;
+    }
+}*/
+
+
+
+/* stylesheet of Settings.html body */
+.settings {
+    flex: 1 0 auto;
+}
+.settings ul {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 50px;
+    background: #F3AC3C;
 }
