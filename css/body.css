@@ -1,12 +1,47 @@
-.head {
-    border-radius: 73px;
-    background: linear-gradient(145deg, #d7a9c0, #ffc9e4);
-    box-shadow:  19px 19px 38px #cba0b5,
-             -19px -19px 38px #ffd8f5;
+.main {
+    position: absolute;
+    top:0px; 
+    left: 0px;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #464E47;
+}
+.main ul .navigation {
+    display: flex;
+    position: relative;
+    border-radius: 50px;
+    background: #96E6B3;
+    box-shadow:  20px 20px 60px #80c498,
+             -20px -20px 60px #adffce;
 }
 body {
-    background: #2E294E;
+    position: relative;
+    top: 10px;
+    background: #568259;
     display: flex;
-    flex-direction: column;
     font-family: 'Poppins', sans-serif;
+}
+.main ul .button {
+    position: absolute;
+    height: 50%;
+    top: 10%;
+    left: 78%;
+    width: 20%;
+    text-align: justify;
+    background: #96E6B3;
+    border-radius: 89% 11% 94% 6% / 10% 87% 13% 90% ;
+}
+.main ul .button a .Text {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    left: 15%;
+    background-color: #F1FFFA;
+    border-radius: 100%;
 }
